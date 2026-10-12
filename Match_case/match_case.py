@@ -1,324 +1,324 @@
 #===============================Problem 1=========================================
 
-# print('''
-# ===Menu===
-# 1. Pizza
-# 2. Burger
-# 3. Pasta
-# 4. Sandwich
-# ''')
+print('''
+===Menu===
+1. Pizza
+2. Burger
+3. Pasta
+4. Sandwich
+''')
 
-# choice = int(input("Enter your choice:- "))
+choice = int(input("Enter your choice:- "))
 
-# match choice:
-#     case 1:
-#         print("You Selected Pizza")
+match choice:
+    case 1:
+        print("You Selected Pizza")
     
-#     case 2:
-#         print("You Selected Burger")
+    case 2:
+        print("You Selected Burger")
 
-#     case 3:
-#         print("You Selected Pasta")
+    case 3:
+        print("You Selected Pasta")
 
-#     case 4:
-#         print("You Selected Sandwich")
+    case 4:
+        print("You Selected Sandwich")
 
-#     case _:
-#         print("Invalid Menu Choice")
+    case _:
+        print("Invalid Menu Choice")
 
-# #===============================Problem 2=========================================
-# print('''
-# ===Mobile Setting===
-# 1 → Wi-Fi
-# 2 → Bluetooth
-# 3 → Mobile Data
-# 4 → Airplane Mode
-# 5 → Exit
-# '''
-# )
-# choice = int(input("Enter your choice:- "))
+#===============================Problem 2=========================================
+print('''
+===Mobile Setting===
+1 → Wi-Fi
+2 → Bluetooth
+3 → Mobile Data
+4 → Airplane Mode
+5 → Exit
+'''
+)
+choice = int(input("Enter your choice:- "))
 
-# match choice:
-#     case 1:
-#         print("Wi-Fi Selected")
-#     case 2:
-#         print("Bluetooth Selected")
-#     case 3:
-#         print("Mobile Data Selected")
-#     case 4:
-#         print("Airplane Mode Selected")
-#     case 5:
-#         print("Exit Selected")
-#     case _:
-#         print("Invalid setting")
+match choice:
+    case 1:
+        print("Wi-Fi Selected")
+    case 2:
+        print("Bluetooth Selected")
+    case 3:
+        print("Mobile Data Selected")
+    case 4:
+        print("Airplane Mode Selected")
+    case 5:
+        print("Exit Selected")
+    case _:
+        print("Invalid setting")
 
-# #===============================Problem 3=========================================
-# print('''
-# ===ATM Main Menu===
-# 1 → Check Balance
-# 2 → Withdraw Money
-# 3 → Deposit Money
-# 4 → Change PIN
-# 5 → Exit
-# '''
-# )
-# choice = int(input("Enter your choice:- "))
+#===============================Problem 3=========================================
+print('''
+===ATM Main Menu===
+1 → Check Balance
+2 → Withdraw Money
+3 → Deposit Money
+4 → Change PIN
+5 → Exit
+'''
+)
+choice = int(input("Enter your choice:- "))
 
-# match choice:
-#     case 1:
-#         print("Check Balance Selected")
-#     case 2:
-#         print("Withdraw Money Selected")
-#     case 3:
-#         print("Deposit Money Selected")
-#     case 4:
-#         print("Change PIN Selected")
-#     case 5:
-#         print("Exit Selected")
-#     case _:
-#         print("Invalid choice")
+match choice:
+    case 1:
+        print("Check Balance Selected")
+    case 2:
+        print("Withdraw Money Selected")
+    case 3:
+        print("Deposit Money Selected")
+    case 4:
+        print("Change PIN Selected")
+    case 5:
+        print("Exit Selected")
+    case _:
+        print("Invalid choice")
 
-# #===============================Problem 4=========================================
+#===============================Problem 4=========================================
 
-# print('''
-# ===Traffic Signal===
-# red
-# yellow
-# green
-# ''')
+print('''
+===Traffic Signal===
+red
+yellow
+green
+''')
 
-# choice = input("Enter signal:- ").strip().lower()
+choice = input("Enter signal:- ").strip().lower()
 
-# match choice:
-#     case "red":
-#         print("Stop")
+match choice:
+    case "red":
+        print("Stop")
     
-#     case "Yellow":
-#         print("Wait")
+    case "Yellow":
+        print("Wait")
 
-#     case "green":
-#         print("Go")
+    case "green":
+        print("Go")
 
-#     case _:
-#         print("Invalid Signal")
+    case _:
+        print("Invalid Signal")
 
-# #===============================Problem 5=========================================
-# print('''
-# ===Student Portal===
-# 1 → View Profile
-# 2 → View Courses
-# 3 → View Marks
-# 4 → View Attendance
-# 5 → Logout
-# '''
-# )
-# choice = int(input("Enter your choice:- "))
+#===============================Problem 5=========================================
+print('''
+===Student Portal===
+1 → View Profile
+2 → View Courses
+3 → View Marks
+4 → View Attendance
+5 → Logout
+'''
+)
+choice = int(input("Enter your choice:- "))
 
-# match choice:
-#     case 1:
-#         print("Opening Profile")
-#     case 2:
-#         print("Opening Courses")
-#     case 3:
-#         print("Opening Marks")
-#     case 4:
-#         print("Opening Attendance")
-#     case 5:
-#         print("Logout")
-#     case _:
-#         print("Invalid choice")
+match choice:
+    case 1:
+        print("Opening Profile")
+    case 2:
+        print("Opening Courses")
+    case 3:
+        print("Opening Marks")
+    case 4:
+        print("Opening Attendance")
+    case 5:
+        print("Logout")
+    case _:
+        print("Invalid choice")
 
-# #===============================Problem 6=========================================
-# print('''
-# ===Online Shoping Menu===
-# 1 → Electronics
-# 2 → Clothing
-# 3 → Books
-# 4 → Grocery
-# 5 → Exit
-# '''
-# )
-# choice = int(input("Enter category:- "))
+#===============================Problem 6=========================================
+print('''
+===Online Shoping Menu===
+1 → Electronics
+2 → Clothing
+3 → Books
+4 → Grocery
+5 → Exit
+'''
+)
+choice = int(input("Enter category:- "))
 
-# match choice:
-#     case 1:
-#         print("Opening Electronics")
-#     case 2:
-#         print("Opening Clothing")
-#     case 3:
-#         print("Opening Books")
-#     case 4:
-#         print("Opening Grocery")
-#     case 5:
-#         print("Exit")
-#     case _:
-#         print("Invalid category")
+match choice:
+    case 1:
+        print("Opening Electronics")
+    case 2:
+        print("Opening Clothing")
+    case 3:
+        print("Opening Books")
+    case 4:
+        print("Opening Grocery")
+    case 5:
+        print("Exit")
+    case _:
+        print("Invalid category")
 
-# #===============================Problem 7=========================================
-# print('''
-# ===Bank Service===
-# 1 → Account Balance
-# 2 → Mini Statement
-# 3 → Fund Transfer
-# 4 → Bill Payment
-# 5 → Customer Support
-# '''
-# )
-# choice = int(input("Enter your choice:- "))
+#===============================Problem 7=========================================
+print('''
+===Bank Service===
+1 → Account Balance
+2 → Mini Statement
+3 → Fund Transfer
+4 → Bill Payment
+5 → Customer Support
+'''
+)
+choice = int(input("Enter your choice:- "))
 
-# match choice:
-#     case 1:
-#         print("Opening Account Balance")
-#     case 2:
-#         print("Opening Mini Statement")
-#     case 3:
-#         print("Opening Fund Transfer")
-#     case 4:
-#         print("Opening Bill Payment")
-#     case 5:
-#         print("Opening Customer Support")
-#     case _:
-#         print("Invalid Service")
+match choice:
+    case 1:
+        print("Opening Account Balance")
+    case 2:
+        print("Opening Mini Statement")
+    case 3:
+        print("Opening Fund Transfer")
+    case 4:
+        print("Opening Bill Payment")
+    case 5:
+        print("Opening Customer Support")
+    case _:
+        print("Invalid Service")
 
-# #===============================Problem 8=========================================
-# print('''
-# ===Movie Booking Menu===
-# 1 → Morning Show
-# 2 → Afternoon Show
-# 3 → Evening Show
-# 4 → Night Show
-# '''
-# )
-# choice = int(input("Enter your choice:- "))
+#===============================Problem 8=========================================
+print('''
+===Movie Booking Menu===
+1 → Morning Show
+2 → Afternoon Show
+3 → Evening Show
+4 → Night Show
+'''
+)
+choice = int(input("Enter your choice:- "))
 
-# match choice:
-#     case 1:
-#         print("Morning Show Selected")
-#     case 2:
-#         print("Afternoon Show Selected")
-#     case 3:
-#         print("Evening Show Selected")
-#     case 4:
-#         print("Night Show Selected")
-#     case _:
-#         print("Invalid choice")
+match choice:
+    case 1:
+        print("Morning Show Selected")
+    case 2:
+        print("Afternoon Show Selected")
+    case 3:
+        print("Evening Show Selected")
+    case 4:
+        print("Night Show Selected")
+    case _:
+        print("Invalid choice")
 
-# #===============================Problem 9=========================================
+#===============================Problem 9=========================================
 
-# print('''
-# ===Weather===
-# sunny
-# rainy
-# cloudy
-# snowy
-# ''')
+print('''
+===Weather===
+sunny
+rainy
+cloudy
+snowy
+''')
 
-# choice = input("Enter Weather:- ").strip().lower()
+choice = input("Enter Weather:- ").strip().lower()
 
-# match choice:
-#     case "sunny":
-#         print("Wear sunglasses")
+match choice:
+    case "sunny":
+        print("Wear sunglasses")
     
-#     case "rainy":
-#         print("Carry an umbrella")
+    case "rainy":
+        print("Carry an umbrella")
 
-#     case "cloudy":
-#         print("Weather may change")
+    case "cloudy":
+        print("Weather may change")
 
-#     case "snowy":
-#         print("Wear warm clothes")
+    case "snowy":
+        print("Wear warm clothes")
 
-#     case _:
-#         print("Unknown Weather")
+    case _:
+        print("Unknown Weather")
 
-# #===============================Problem 10=========================================
+#===============================Problem 10=========================================
 
-# print('''
-# ===Payment Method===
-# upi
-# card
-# cash
-# wallet
-# ''')
+print('''
+===Payment Method===
+upi
+card
+cash
+wallet
+''')
 
-# choice = input("Enter Payment method:- ").strip().lower()
+choice = input("Enter Payment method:- ").strip().lower()
 
-# match choice:
-#     case "upi":
-#         print("UPI Payment Selected")
+match choice:
+    case "upi":
+        print("UPI Payment Selected")
     
-#     case "card":
-#         print("CARD payment selected")
+    case "card":
+        print("CARD payment selected")
 
-#     case "cash":
-#         print("CASH payment selected")
+    case "cash":
+        print("CASH payment selected")
 
-#     case "wallet":
-#         print("WALLET payment selected")
+    case "wallet":
+        print("WALLET payment selected")
 
-#     case _:
-#         print("Invalid payment method")
+    case _:
+        print("Invalid payment method")
 
 
-# #===============================Problem 11=========================================
+#===============================Problem 11=========================================
 
-# print('''
-# ===Extension===
-# pdf
-# jpg
-# png
-# mp3
-# mp4
-# ''')
+print('''
+===Extension===
+pdf
+jpg
+png
+mp3
+mp4
+''')
 
-# choice = input("Enter extension:- ").strip().lower()
+choice = input("Enter extension:- ").strip().lower()
 
-# match choice:
-#     case "pdf":
-#         print("Document File")
+match choice:
+    case "pdf":
+        print("Document File")
     
-#     case "jpg":
-#         print("Image file")
+    case "jpg":
+        print("Image file")
 
-#     case "png":
-#         print("Image file")
+    case "png":
+        print("Image file")
 
-#     case "mp3":
-#         print("Audio file")
+    case "mp3":
+        print("Audio file")
     
-#     case "mp4":
-#         print("video file")
+    case "mp4":
+        print("video file")
 
-#     case _:
-#         print("Unknown File Type")
+    case _:
+        print("Unknown File Type")
 
-# #===============================Problem 12=========================================
+#===============================Problem 12=========================================
 
-# print('''
-# ===User role===
-# admin
-# teacher
-# student
-# guest
-# ''')
+print('''
+===User role===
+admin
+teacher
+student
+guest
+''')
 
-# choice = input("Enter Your role:- ").strip().lower()
+choice = input("Enter Your role:- ").strip().lower()
 
-# match choice:
-#     case "admin":
-#         print("Full Access")
+match choice:
+    case "admin":
+        print("Full Access")
     
-#     case "teacher":
-#         print("Teacher Dashboard")
+    case "teacher":
+        print("Teacher Dashboard")
 
-#     case "student":
-#         print("Student Dashboard")
+    case "student":
+        print("Student Dashboard")
 
-#     case "guest":
-#         print("Limited Access")
+    case "guest":
+        print("Limited Access")
     
-#     case _:
-#         print("Invalid Role")
+    case _:
+        print("Invalid Role")
 
 #===============================Problem 13=========================================
 print('''
