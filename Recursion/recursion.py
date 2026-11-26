@@ -156,3 +156,69 @@ def fibonacci(n):
 print(fibonacci(0))  # 0
 print(fibonacci(1))  # 1
 print(fibonacci(6))  # 8
+
+#================================Question 14=============================
+def max_digit(n):
+    if n < 10:
+        return n
+    a = n % 10
+    b = max_digit(n // 10)
+    if a > b:
+        return a
+    else:
+        return b
+
+print(max_digit(47225))  # 7
+print(max_digit(555))   # 5
+print(max_digit(0))     # 0
+
+
+#================================Question 15=============================
+def mystery(n):
+    if n <= 1:
+        return n
+
+    return mystery(n - 1) + mystery(n - 2)
+
+# 3 returned by mystery(4)
+# 0 returned by mystery(0)
+# 1 returned by mystery(1)
+# 1 returned by mystery(2)
+
+# Section D — Edge Cases and Debugging
+#================================Question 16=============================
+'''def factorial(n):
+    if n == 0:
+        return 0
+
+    return n * factorial(n - 1)'''
+
+# After fixing the base case
+
+def factorial(n):
+    if n == 0:
+        return 1
+
+    return n * factorial(n - 1)
+
+#================================Question 17=============================
+'''def stop_at_zero(n):
+    if n == 0:
+        return
+
+    stop_at_zero(n)'''
+
+# After code correction
+
+def stop_at_zero(n):
+    if n == 0:
+        return
+
+    stop_at_zero(n-1)
+
+#================================Question 18=============================
+# Python limits how deeply calls can nest. Too many recursive calls can raise RecursionError.
+#  The exact safe depth depends on the environment and other code.
+
+# For large counting tasks, a loop is often safer and uses less call-stack space.
+# Do not increase the recursion limit just to hide a faulty recursive solution.
