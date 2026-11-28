@@ -64,3 +64,56 @@ print(final_price(2000, 10))
 check = lambda a: "positive" if a>0 else "negative" if a<0 else "zero"
 
 print(check(0))
+
+
+
+
+#practice Questions
+#=================1==================
+multiply = lambda a ,b: a*b
+
+print(multiply(5,9))
+
+#=================2=================
+cube = lambda n: n*n*n
+
+print(cube(5))
+
+#=================3=================
+check = lambda a: "positive" if a>0 else "negative" if a<0 else "zero"
+
+print(check(45))
+
+#=================4=================
+smaller = lambda a, b: a if a < b else b
+
+print(smaller(45, 32))
+
+#=================5=================
+area = lambda l,b : f"{l*b} Sq unit"
+
+print(area(10,5))
+
+#=================6=================
+lowercase = lambda text: text.lower()
+
+print(lowercase("HELLO WORLD"))
+
+#=================7=================
+check_vowel = lambda a : "vowel" if a in "aeiou" else "consonant"
+
+print(check_vowel("e"))
+
+#=================8=================
+word = "coding"
+
+result = map(lambda ch: ch.upper(), word)
+
+print("".join(result))
+
+#=================9=================
+word = "programming"
+
+result = filter(lambda ch: ch in "aeiou", word)
+
+print("".join(result))
